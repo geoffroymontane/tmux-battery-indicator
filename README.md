@@ -7,7 +7,7 @@ It works well with two power management tools :
 	- acpi (see "Use acpi" section)
 
 ### Screenshots
-![1](1.png)<br>
-![2](2.png)<br>
-![3](3.png)<br>
-![4](4.png)<br>
+![1](img/1.png)<br>
+![2](img/2.png)<br>
+![3](img/3.png)<br>
+![4](img/4.png)<br>
