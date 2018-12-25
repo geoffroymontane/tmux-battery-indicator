@@ -8,9 +8,9 @@ It works well with two power management tools :
 
 ### Screenshots
 ![1](img/1.png)<br>
-High but discharging (- means discharging)
+High but discharging (- means discharging) <br>
 ![2](img/2.png)<br>
-Low but charging (+ means charging)
+Low but charging (+ means charging) <br>
 ![3](img/3.png)<br>
 ![4](img/4.png)<br>
-An example in tmux
+An example in tmux <br>
