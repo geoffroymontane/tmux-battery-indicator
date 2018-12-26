@@ -1,5 +1,5 @@
 # tmux-battery-indicator
-An alternative to the official tmux-battery plugin, written mostly in C++ with a nice battery indicator, easy to customize.<br>
+An alternative to the official tmux-battery plugin, written mostly in C++ with a nice battery indicator, easy to customize.<br><br>
 ![5](img/5.png)<br>
 
 ### Compatibility
