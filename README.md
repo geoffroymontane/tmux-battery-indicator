@@ -9,10 +9,10 @@ Check if these softwares are available in your terminal.
 
 ### Screenshots
 ![1](img/1.png)<br>
-High but discharging (- means discharging) <br>
+High but discharging (- means discharging) <br><br>
 ![2](img/2.png)<br>
-Low but charging (+ means charging) <br>
-![3](img/3.png)<br><br>
+Low but charging (+ means charging) <br><br>
+![3](img/3.png)<br>
 
 ### An example in tmux
 ![4](img/4.png)<br>
