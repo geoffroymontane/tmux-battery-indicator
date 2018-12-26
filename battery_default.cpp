@@ -20,8 +20,7 @@
 // In order to install it, see README.md.
 
 // In order to change colors or other things, change the code below and
-// recompile by using the "make" command in the current directory
-// once you have finished.
+// recompile by executing install.sh again once you have finished.
 
 // In order to use acpi instead of upower, see battery.sh.
 
