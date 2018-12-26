@@ -63,7 +63,7 @@ In order to customize this plugin, edit battery\_default.cpp and recompile by ex
 
 ### LICENCE
 
-Copyright (C) 2018/2019 Geoffroy Montane
+Copyright (C) 2018/2019 Geoffroy Montané
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
