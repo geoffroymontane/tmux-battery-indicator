@@ -23,7 +23,7 @@
 # In order to change colors or other things, see battery_default.cpp.
 # In order to use acpi instead of upower, see the lines below.
 
-path=~/.tmux/plugins/battery
+path=~/.tmux/plugins/tmux-battery-indicator
 
 # Comment the following line in order to use acpi instead of upower 
 $path/battery.out "$(upower -i $(upower -e | grep 'BAT') | grep -E 'state|to\ full|percentage')"
