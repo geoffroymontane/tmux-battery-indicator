@@ -52,7 +52,7 @@ or just :
 
 In order to use acpi instead of upower, take a look to battery.sh and edit it. All is explained.
 
-### How to customize 
+### How to customize it
 
 In order to customize this plugin, edit battery\_default.cpp and recompile by executing install.sh again.
 
