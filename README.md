@@ -2,9 +2,9 @@
 An alternative to the official tmux-battery plugin, written mostly in C++ with a nice battery indicator, easy to customize.
 
 ### Compatibility
-It works well with two power management tools :
-	- upower (by default)
-	- acpi (see "Use acpi" section)
+It works well with two power management tools : <br>
+	- upower (by default)<br>
+	- acpi (see "Use acpi" section)<br>
 Check if these softwares are available in your terminal.
 
 ### Screenshots
