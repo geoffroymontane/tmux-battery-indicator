@@ -29,7 +29,7 @@ Clone the repository :
 	git clone https://github.com/geoffroymontane/tmux-battery-indicator.git
 
 
-Note : if you want to change the path, you just have to update battery.sh with the new value of "path" variable.
+Note : if you want to change the path, you just have to update battery.sh and battery.tmux with the new value of "path" variable.
 
 Execute install.sh (you need g++ to compile the software):
 	
