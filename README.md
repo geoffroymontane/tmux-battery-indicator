@@ -37,11 +37,11 @@ Execute install.sh (you need g++ to compile the software):
 	chmod +x install.sh
 	sudo ./install.sh
 
-If ~/.tmux.conf does not exist, create it. You have to add the following line at the bottom :
+If ~/.tmux.conf does not exist, create it. You have to add the following line at the bottom of this file :
 
 	run-shell 'bash ~/.tmux/plugins/tmux-battery-indicator/battery.tmux'
 
-Then, you just have to add #{battery} to you status bar. For instance, you can use :
+Then, you just have to add #{battery} to you status bar. For instance, you can add to your .tmux.conf :
 
 	set -g status-right 'Datetime : %H:%M %d/%m Battery : #{battery}'
 
