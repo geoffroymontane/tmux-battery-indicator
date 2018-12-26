@@ -34,7 +34,7 @@ Execute install.sh (you need g++ to compile the software):
 	
 	cd tmux-battery-indicator
 	chmod +x install.sh
-	sudo install.sh
+	sudo ./install.sh
 
 If ~/.tmux.conf does not exist, create it. You have to add the following line at the bottom :
 
@@ -47,6 +47,11 @@ Then, you just have to add #{battery} to you status bar. For instance, you can u
 or just : 
 
 	set -g status-right '#{battery}'
+
+Then, exit tmux an restart it :
+	
+	tmux kill-server
+	tmux
 
 ### Use acpi instead of upower
 
