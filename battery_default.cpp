@@ -57,23 +57,17 @@ int main(int argc,char *argv[]){
 	// Color supposed to be yellow
 	string colorY("colour3");
 
-	// Color supposed to be orange
-	string colorO("colour58");
-
 	// Background color
-	string color("colour255");
+	string color("colour15");
 
 	// Text color
-	string colorTxt("colour232");
+	string colorTxt("colour16");
 
 	// Critical threshold of battery in % : if less, the bar turns to yellow.
-	int thresholdY(75);
-
-	// Critical threshold of battery in % : if less, the bar turns to orange.
-	int thresholdO(50);
+	int thresholdY(70);
 
 	// Critical threshold of battery in % : if less, the bar turns to red.
-	int thresholdR(25);
+	int thresholdR(30);
 
 
 	/*
@@ -124,9 +118,6 @@ int main(int argc,char *argv[]){
 	string *gaugeColor(&colorG);
 	if(percentage_<=thresholdY){
 		gaugeColor=&colorY;
-	}
-	if(percentage_<=thresholdO){
-		gaugeColor=&colorO;
 	}
 	if(percentage_<=thresholdR){
 		gaugeColor=&colorR;

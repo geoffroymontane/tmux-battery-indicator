@@ -19,9 +19,9 @@
 
 # In order to install it, see README.
 # In order to change colors or other things, see battery_default.cpp.
-# In order to use acpi instead of upower, see battery.sh.
+# In order to use upower instead of acpi, see battery.sh.
 
-path=~/.tmux/plugins/battery
+path=~/.tmux/plugins/tmux-battery-indicator
 display="#($path/battery.sh)"
 
 
