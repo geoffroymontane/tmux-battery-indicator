@@ -123,10 +123,14 @@ int main(int argc,char *argv[]){
 	}
 
 	if(progress!=bLen){
-		cout << string("#[fg=")+colorTxt+string(",bg=")+*gaugeColor+string(",bold][")+progress_+string("#[bg=")+color+string(",bold]")+blank_+string("]#[fg=")+colorTxt+string(",bg=")+color+string(",bold]")+percentage+string("%")+string("#[fg=default,bg=default]")<< endl;
+		cout << "#[fg=" << colorTxt << ",bg=" << *gaugeColor << ",bold][" << progress_ 
+		     << "#[bg=" << color << ",bold]" << blank_ << "]#[fg=" << colorTxt << ",bg=" 
+	             << color << ",bold]" << percentage << "%" << "#[fg=default,bg=default]" << endl;
 	}
 	else{
-		cout << string("#[fg=")+colorTxt+string(",bg=")+colorG+string(",bold][")+progress_+string("]#[bg=")+color+string(",bold]#[fg=")+colorTxt+string(",bg=")+color+string(",bold]")+percentage+string("%")+string("#[fg=default,bg=default]")<< endl;
+		cout << "#[fg=" << colorTxt << ",bg=" << colorG << ",bold][" << progress_
+		     << "]#[bg=" << color << ",bold]#[fg=" << colorTxt << ",bg=" << color
+		     << ",bold]" << percentage << "%" << "#[fg=default,bg=default]"<< endl;
 	}
 
 
